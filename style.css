@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window{
+    width: 600px;
+    overflow: hidden;
+    margin: auto;
+}
+.images{
+    display: flex;
+    align-items: flex-start;
+    transition: transform .75s;
+}
+#buttons{
+    margin-top: 10px;
+    text-align: center;
+}
+#buttons>span{
+    cursor: pointer;
+    background: rgb(32, 216, 230);
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+#buttons>span.active{
+    color: red;
+}
